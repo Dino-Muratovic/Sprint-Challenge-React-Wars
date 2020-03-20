@@ -26,13 +26,27 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  React is a front-end JS framework used to build applications in components that come together as you build.
+
 - [ ] What does it mean to _think_ in react?
+
+  It means to think in components and keeping your code clean and DRY.
 
 - [ ] Describe state.
 
+  StateUse is a state of data of some sort and it can change. For an example. If you need to get something out of a specific array full of objects you can 
+  drill down to that specific object you are trying to get to and set the data State to be that object so that you can pass it onto the children.
+
 - [ ] Describe props.
 
+  Props is a special keyword and it stands for properties to pass the data from one component to another.
+
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+A side effect is anything that affects something outside the scope of the function being executed. For an example .. fetching data from elsewhere using axios.get
+
+
 
 ## Project Set Up
 
